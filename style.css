@@ -1,0 +1,146 @@
+/* Colours */
+:root {
+  --grey: #d9d9d9;
+  --light-blue: #77a1a6;
+  --cream: #f1f2c2;
+  --sky-blue: #80bfbf;
+  --dark-blue: #223f59;
+  --black: #1a1926;
+}
+
+body {
+  background-color: rgb(185, 180, 180);
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  border: 1px solid blue;
+}
+
+/* Elements style */
+a {
+  color: white;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dark-blue);
+  height: 10vh;
+  padding: 0 5%;
+}
+
+.homeLogo a {
+  font-family: "Bonheur Royale", cursive;
+  font-size: 2rem;
+}
+
+.menuAndTranslateContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerButton {
+  font-size: 2rem;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+/*Small screens*/
+@media (max-width: 766px) {
+}
+
+/*Medium screens*/
+@media (min-width: 767px) {
+}
+
+/* Large screens*/
+@media (min-width: 1200px) {
+}
+
+/*Welcome section */
+.welcome {
+  background-image: url(/img/fullbackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-behavior: smooth;
+}
+
+.welcomeSectionButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+/*Components*/
+.buttons {
+  background-color: var(--sky-blue);
+  padding: 0.25rem;
+  border-radius: 5%;
+  border: none;
+  padding: 0.4rem;
+  color: white;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+.buttons:hover {
+  background-color: #83d4d4;
+}
+
+/* Habilidades */
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.skillsList li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 10%;
+  width: 2rem;
+
+  background-color: var(--grey);
+}
+
+.skillsImg {
+  width: 2rem;
+  height: 2rem;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
