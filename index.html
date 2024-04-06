@@ -33,7 +33,7 @@
   </header>
 
   <main>
-    <section class="welcome">
+    <section class="welcome" id="home">
       <h1>Hola, soy Abril</h1>
       <h3>Desarrolladora web</h3>
       <div class="welcomeSectionButtons">
@@ -52,6 +52,28 @@
           mis hobbies</p>
       </div>
       <button class="buttons">MIS HOBBIES</button>
+      <div class="hobbies">
+        <ul class="hobbiesList">
+          <li><img class="hobbieImg" src="img/learning.png" alt="">
+            <p>Aprender cosas nuevas</p>
+          </li>
+          <li><img class="hobbieImg" src="img/playingwithcats.png" alt="">
+            <p>Jugar con mis gatas</p>
+          </li>
+          <li><img class="hobbieImg" src="img/movies.gif" alt="">
+            <p>Ver series y peliculas</p>
+          </li>
+          <li><img class="hobbieImg" src="img/baking.png" alt="">
+            <p>Cocinar</p>
+          </li>
+          <li><img class="hobbieImg" src="img/videogames.png" alt="">
+            <p>Jugar videojuegos</p>
+          </li>
+          <li><img class="hobbieImg" src="img/yoga.png" alt="">
+            <p>Hacer yoga</p>
+          </li>
+        </ul>
+      </div>
     </section>
     <section class="skills">
       <h2>Habilidades</h2>
@@ -100,15 +122,19 @@
     </section>
     <section class="experience">
       <h2>Experiencia</h2>
-      <h3>Pasantía en desarrollo de software</h3>
-      <h4>Hotel Costa Azul</h4>
-      <h4>2020-2021</h4>
-      <img src="img/costaAzulHotel.png" alt="hotelLogo">
-      <p>Particié en la creación del sistema "HYS1", orientado a la administración y gestión de tareas hoteleras.
-        Desarrollé un inicio de sesión seguro que permitió el control eficiente de acceso a la información para
-        distintos roles.
-        Con esta experiencia aprendi habilidades de programación en Python y capacidad de organización.
-      </p>
+      <article class="job">
+        <h3>Pasantía en desarrollo de software</h3>
+        <div class="jobText">
+          <h4>Hotel Costa Azul</h4>
+          <h4>2020-2021</h4>
+        </div>
+        <img class="jobImg" src="img/costaAzulHotel.png" alt="hotelLogo">
+        <p>Participé en la creación del sistema "HYS1", orientado a la administración y gestión de tareas hoteleras.
+          Desarrollé un inicio de sesión seguro que permitió el control eficiente de acceso a la información para
+          distintos roles.
+          Con esta experiencia aprendi habilidades de programación en Python y capacidad de organización.
+        </p>
+      </article>
     </section>
     <section class="contact">
       <h2>Contáctame</h2>
@@ -119,7 +145,7 @@
         <input class="buttons" type="button" value="Enviar">
       </form>
     </section>
-    <a class="upButton"><i class="bi bi-arrow-up"></i></a>
+    <a class="upButton" href="#home"><i class="bi bi-arrow-up"></i></a>
   </main>
 
   <footer>
