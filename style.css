@@ -73,7 +73,7 @@ header {
 
 /*Welcome section */
 .welcome {
-  background-image: url(/img/fullbackground.jpg);
+  background-image: url(img/fullbackground.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow-y: auto;
