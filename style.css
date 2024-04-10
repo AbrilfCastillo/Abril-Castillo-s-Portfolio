@@ -13,7 +13,8 @@
 body {
   font-family: "Inter", sans-serif;
   color: white;
-  min-width: 100vw;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 main {
@@ -162,6 +163,7 @@ header {
 /*Proyects*/
 .meme {
   padding: 1rem;
+  width: 80%;
 }
 
 /*Experience*/
@@ -175,8 +177,8 @@ header {
 
 .jobText {
   display: flex;
-  gap: 1rem;
-  justify-content: space-between;
+  gap: 0.5rem;
+  font-weight: bold;
 }
 
 .jobImg {
@@ -189,15 +191,17 @@ header {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  padding: 2rem;
+  width: 80%;
   border-radius: 5%;
   background-color: #071132;
+  padding: 1.5rem;
 }
 
 .contactInput {
   background-color: #09143ec0;
   border-radius: 5%;
   border: none;
+  width: 90%;
   padding: 1rem;
 }
 
