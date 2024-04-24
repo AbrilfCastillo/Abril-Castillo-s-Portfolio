@@ -34,7 +34,7 @@
 
   <main>
     <section class="welcome" id="home">
-      <h1>Hola, soy Abril</h1>
+      <h1>Hola, soy <span>Abril</span></h1>
       <h3>Desarrolladora web</h3>
       <div class="welcomeSectionButtons">
         <a href="#" class="cvButton buttons">MIRA MI CV <i class="bi bi-file-earmark-person"></i></a>
@@ -42,7 +42,7 @@
       </div>
     </section>
 
-    <section class="aboutMe">
+    <section class="aboutMe" id="aboutMe">
       <h2>Sobre mí</h2>
       <div class="aboutMeText">
         <p>Me llamo Abril Castillo. Soy estudiante de la carrera de Licenciatura en Sistemas de información. Me
@@ -51,8 +51,8 @@
           descubrir
           mis hobbies</p>
       </div>
-      <button class="buttons">MIS HOBBIES</button>
-      <div class="hobbies">
+      <button class="buttons" id="showHobbiesButton">MIS HOBBIES</button>
+      <div class="hobbies" id="hobbiesSection">
         <ul class="hobbiesList">
           <li><img class="hobbieImg" src="img/learning.png" alt="">
             <p>Aprender cosas nuevas</p>
@@ -75,7 +75,7 @@
         </ul>
       </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
       <h2>Habilidades</h2>
       <ul class="skillsList">
         <li><img class="skillsImg" src="img/javascriptlogo.png" alt="javascript">
@@ -116,11 +116,11 @@
         </li>
       </ul>
     </section>
-    <section class="proyects">
+    <section class="proyects" id="proyects">
       <h2>Proyectos</h2>
       <img src="img/meme.png" alt="proyect" class="meme">
     </section>
-    <section class="experience">
+    <section class="experience" id="experience">
       <h2>Experiencia</h2>
       <article class="job">
         <h3>Pasantía en desarrollo de software</h3>
@@ -136,7 +136,7 @@
         </p>
       </article>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
       <h2>Contáctame</h2>
       <form action="#" class="contactForm">
         <input type="text" class="contactInput" placeholder="nombre">
@@ -150,20 +150,21 @@
 
   <footer>
     <ul class="sectionsList">
-      <li><a href="#">Sobre mí</a></li>
-      <li><a href="#">Habilidades</a></li>
-      <li><a href="#">Proyectos</a></li>
-      <li><a href="#">Experiencia</a></li>
-      <li><a href="#">Contacto</a></li>
+      <li><a href="#aboutMe">Sobre mí</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#proyects">Proyectos</a></li>
+      <li><a href="#experience">Experiencia</a></li>
+      <li><a href="#contact">Contacto</a></li>
     </ul>
     <ul class="socialsList">
-      <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-      <li><a href="#"><i class="bi bi-github"></i></a></li>
-      <li><a href="#"><i class="bi bi-envelope"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/abrilfcastillo/"><i class="bi bi-linkedin"></i></a></li>
+      <li><a href="https://github.com/AbrilfCastillo"><i class="bi bi-github"></i></a></li>
+      <li><a href="mailto:castilloabrilfabiola@gmail.com"><i class="bi bi-envelope"></i></a></li>
     </ul>
     </div>
     <p>Desarrollado por Abril Castillo</p>
   </footer>
+  <script src="logic.js"></script>
 </body>
 
 </html>
